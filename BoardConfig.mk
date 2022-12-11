@@ -14,6 +14,9 @@
 # limitations under the License.
 #
 
+# Broken rules
+SELINUX_IGNORE_NEVERALLOWS := true
+
 BOARD_VENDOR := xiaomi
 
 DEVICE_PATH := device/xiaomi/davinci
